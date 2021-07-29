@@ -11,11 +11,15 @@ Contract is written in solidity, client side is using the JAVA SDK.
     cp -r nodes/127.0.0.1/sdk/* voting-app/src/test/resources/conf
     ```
 4. Build the project
+```
 cd voting-app
 ./gradlew build
+```
 5. Run the project
+```
 cd dist
 type bash run.sh to see the usage
+```
 
 ##### Supported commands are:
 1.	deploy – used to deploy the contract
