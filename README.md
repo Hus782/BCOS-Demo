@@ -6,8 +6,10 @@ Contract is written in solidity, client side is using the JAVA SDK.
 1. Follow the steps in [搭建第一个区块链网络](https://fisco-bcos-documentation.readthedocs.io/zh_CN/latest/docs/installation.html)
 2. Clone the repository inside the ~fisco directory
 3. Clear old certificates and add the new ones
+    ```
     rm -r voting-app/src/test/resources/conf/*
     cp -r nodes/127.0.0.1/sdk/* voting-app/src/test/resources/conf
+    ```
 4. Build the project
 cd voting-app
 ./gradlew build
